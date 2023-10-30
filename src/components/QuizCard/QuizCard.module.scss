@@ -1,0 +1,61 @@
+.quizCard {
+  background-color: #ddf3ff;
+  width: 868px;
+  border-radius: 10px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  height: 432px;
+  position: relative;
+}
+
+.questionWrapper {
+  display: flex;
+  margin-top: 36px;
+  flex-direction: column;
+}
+
+.radio {
+  margin-top: 15px;
+}
+
+.questionNumberWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.questionImage {
+  width: 80px;
+  height: 20px;
+}
+
+.currentQuestionNumber {
+  font-weight: 400;
+  font-size: 15px;
+  color: #9a9a9a;
+}
+
+.answersWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonTextBlack {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.buttonTextWhite {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  bottom: 30px;
+  position: absolute;
+  gap: 10px;
+}

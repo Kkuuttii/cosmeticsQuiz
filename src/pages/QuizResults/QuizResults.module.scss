@@ -1,0 +1,30 @@
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 35px;
+  margin-top: 66px;
+}
+
+.loaderWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.pagination {
+  margin-top: 50px;
+
+  div {
+    color: #b8b8b8;
+    button {
+      border: none;
+      background-color: none;
+      color: #b8b8b8;
+    }
+
+    button[data-active="true"] {
+      background-color: transparent;
+      color: #00a5ff;
+    }
+  }
+}
