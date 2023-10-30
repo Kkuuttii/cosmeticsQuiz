@@ -20,7 +20,7 @@ export function ProductCard({
     <Card className={styles.productCard}>
       <Card.Section className={styles.imageSection}>
         <Image
-          src={new URL(image, import.meta.url).href}
+          src={new URL(image, import.meta.url)}
           className={styles.productImage}
         />
         <Image src={HeartIcon} className={styles.heartIcon} />
