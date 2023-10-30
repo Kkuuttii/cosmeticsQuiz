@@ -2,70 +2,70 @@
   {
     "id": 1,
     "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
-    "image": "/public/mock/product-1.jpeg",
+    "image": "/src/images/mock/product-1.jpeg",
     "price": 98.13,
     "oldPrice": 115.45
   },
   {
     "id": 2,
     "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
-    "image": "/public/mock/product-2.jpeg",
+    "image": "/src/images/mock/product-2.jpeg",
     "price": 46.55,
     "oldPrice": null
   },
   {
     "id": 3,
     "title": "Крем дневной д/лица Legere, 50мл",
-    "image": "/public/mock/product-3.jpeg",
+    "image": "/src/images/mock/product-3.jpeg",
     "price": 55.75,
     "oldPrice": null
   },
   {
     "id": 4,
     "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
-    "image": "/public/mock/product-4.jpeg",
+    "image": "/src/images/mock/product-4.jpeg",
     "price": 44.55,
     "oldPrice": null
   },
   {
     "id": 5,
     "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
-    "image": "/public/mock/product-5.jpeg",
+    "image": "/src/images/mock/product-5.jpeg",
     "price": 59.02,
     "oldPrice": 72
   },
   {
     "id": 6,
     "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
-    "image": "/public/mock/product-6.jpeg",
+    "image": "/src/images/mock/product-6.jpeg",
     "price": 63,
     "oldPrice": null
   },
   {
     "id": 7,
     "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
-    "image": "/public/mock/product-7.jpeg",
+    "image": "/src/images/mock/product-7.jpeg",
     "price": 43.25,
     "oldPrice": null
   },
   {
     "id": 8,
     "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
-    "image": "/public/mock/product-8.jpeg",
+    "image": "/src/images/mock/product-8.jpeg",
     "price": 63.5,
     "oldPrice": 76.25
   },
   {
     "id": 9,
     "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
-    "image": "/public/mock/product-9.jpeg",
+    "image": "/src/images/mock/product-9.jpeg",
     "price": 242,
     "oldPrice": null
   },
   {
     "id": 10,
     "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
-    "image": "/public/mock/product-10.jpeg",
+    "image": "/src/images/mock/product-10.jpeg",
     "price": 185,
     "oldPrice": 240
   }

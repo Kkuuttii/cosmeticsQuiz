@@ -19,7 +19,10 @@ export function ProductCard({
   return (
     <Card className={styles.productCard}>
       <Card.Section className={styles.imageSection}>
-        <Image src={image} className={styles.productImage} />
+        <Image
+          src={new URL(image, import.meta.url).href}
+          className={styles.productImage}
+        />
         <Image src={HeartIcon} className={styles.heartIcon} />
       </Card.Section>
       <Card.Section className={styles.contentSection}>
