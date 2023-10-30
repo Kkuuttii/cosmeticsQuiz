@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createContext, useMemo, useState } from "react";
 
 interface QuizContextValues {
@@ -17,7 +16,6 @@ interface Question {
   id: string;
   answers: string[];
 }
-
 interface QuizProviderProps {
   children: JSX.Element;
   questions: Question[];
@@ -49,8 +47,7 @@ export const QuizProvider = ({ children, questions }: QuizProviderProps) => {
   const changeCurrentAnswer = (answer: string) => {
     setAnswers((prev) => [...prev.slice(0, questionNumber - 1), answer]);
   };
-  console.log(answers);
-  console.log(currentAnswer);
+
   return (
     <QuizContext.Provider
       value={{

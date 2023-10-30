@@ -26,11 +26,8 @@ export function ProductCard({
         <Text className={styles.productTitle}>{title}</Text>
         <Group className={styles.priceGroup}>
           {oldPrice && <Text className={styles.oldPrice}>{oldPrice}</Text>}
-          <Text className={styles.price}>
-            {price}
-
-            <Text className={styles.currency}>{"руб."}</Text>
-          </Text>
+          <Text className={styles.price}>{price}</Text>
+          <Text className={styles.currency}>{"руб."}</Text>
         </Group>
       </Card.Section>
     </Card>

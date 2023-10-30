@@ -24,7 +24,13 @@ export function QuizCard() {
   const selectableAnswers = useMemo(
     () =>
       currentQuestion?.answers.map((item) => (
-        <Radio value={item} label={item} size="xs" className={styles.radio} />
+        <Radio
+          key={item}
+          value={item}
+          label={item}
+          size="xs"
+          className={styles.radio}
+        />
       )),
     [currentQuestion?.answers]
   );
@@ -91,7 +97,10 @@ export function QuizCard() {
           </Button>
         )}
         {isLastQuestion && (
-          <Button variant="filled" onClick={() => navigate("/results")}>
+          <Button
+            variant="filled"
+            onClick={() => currentAnswer && navigate("/results")}
+          >
             <span className={styles.buttonTextWhite}>Узнать результат</span>
           </Button>
         )}
@@ -99,5 +108,3 @@ export function QuizCard() {
     </div>
   );
 }
-
-// TODO узнать результаты можно только когда  выбран радиус

@@ -1,10 +1,10 @@
-// import styles from "./Pagination.module.scss";
 import { useState } from "react";
 import { Container, Text, Button } from "@mantine/core";
 
 interface Pagination {
   total: number;
 }
+
 export function Pagination({ total }: Pagination) {
   const [currentPage, setCurrentPage] = useState(1);
 
